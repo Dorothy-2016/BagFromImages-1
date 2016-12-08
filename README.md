@@ -19,8 +19,8 @@ In your ROS_PACKAGE_PATH (check your environment variable ROS_PACKAGE_PATH):
 ## Usage:
 
     Format of image file name.
-      left_<id>.png
-      right_<id>.png
+      left_<04%id>.png
+      right_<04%id>.png
 
     rosrun BagFromImages stereo PATH_TO_IMAGES FRAME_NUMBER FREQUENCY PATH_TO_OUPUT_BAG
   
